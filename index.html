@@ -1,0 +1,200 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+
+    <!-- CSS Jquery and JS File -->
+    <!-- <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="js_file.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Dashboard</title>
+</head>
+
+<body>
+
+
+    <div class=" row container-fluid">
+
+        <!--/////////////////////////// Menu Section ////////////////////////////////-->
+
+        <input type="checkbox" id='check' />
+        <label for='check'><i class="material-icons" id='btn' style="color:black;"></i></label>
+
+        <div class="col-2 Dashboard_menu">
+            <header>
+                <input type="checkbox" id='check' />
+                <label for='check'>
+                    <i class="material-icons" id='btn' style="color:white;">format_align_justify</i>
+                </label>
+                <div><i class="material-icons Dashboard_logo">account_balance</i></div>
+                <div class=" Dashboard_logo_text"><b>AKHEYAR GYM</b></div>
+            </header>
+
+            <ul class="Main-menu-ul">
+                <li><a href='index.html'><i class="material-icons">border_inner</i>Dashboard</a></li>
+
+                <li><a href='#'><i class="material-icons">person_pin</i>Profile</a></li>
+
+
+                <li><a href='#' class="member-btn"><i class="material-icons">group</i>Members
+                        <span style="color: white;" class="member-tag"><i class="material-icons ">arrow_drop_down</i></span>
+                    </a>
+
+                    <ul class="member-show">
+                        <li class="sub-menu"><a href='Trainers.html' class="member-list">Trainers</a></li>
+                        <li class="sub-menu"><a href='#' class="member-list">Trainee</a></li>
+                    </ul>
+                </li>
+
+                <li><a href='#' class="exercise-btn"><i class="material-icons"> airline_seat_recline_extra</i>Exercise
+                        <span style="color: white;" class="exercise-tag"><i class="material-icons ">arrow_drop_down</i></span>
+                    </a>
+
+                    <ul class="exercise-show">
+                        <li class="sub-menu"><a href='#' class="exercise-list">Jumping jacks </a></li>
+                        <li class="sub-menu"><a href='#' class="exercise-list">Pushups </a></li>
+                        <li class="sub-menu"><a href='#' class="exercise-list">Crunches </a></li>
+                        <li class="sub-menu"><a href='#' class="exercise-list">Squats </a></li>
+                        <li class="sub-menu"><a href='#' class="exercise-list">Triceps dips </a></li>
+                        <li class="sub-menu"><a href='#' class="exercise-list">Forearm plank </a></li>
+                        <li class="sub-menu"><a href='#' class="exercise-list">Aerobic </a></li>
+
+                    </ul>
+                </li>
+
+
+                <li><a href='#' class="plan-btn"><i class="material-icons"> directions_run</i>Diet Plan
+                        <span style="color: white;" class="plan-tag"><i class="material-icons ">arrow_drop_down</i></span>
+                    </a>
+
+                    <ul class="plan-show">
+                        <li class="sub-menu"><a href='#' class="plan-list">Plan 1 for 50 kg</a></li>
+                        <li class="sub-menu"><a href='#' class="plan-list">Plan 1 for 70 kg</a></li>
+                        <li class="sub-menu"><a href='#' class="plan-list">Plan 1 for 100 kg</a></li>
+                        <li class="sub-menu"><a href='#' class="plan-list">Plan 1 for 150 kg</a></li>
+                    </ul>
+                </li>
+
+                <li><a href='Payment.html' class="payment-btn"><i class="material-icons"> monetization_on</i>Payments</a></li>
+                <!-- <li><a href='#' class="payment-btn"><i class="material-icons"> monetization_on</i>Payments
+                        <span style="color: white;" class="payment-tag"><i class="material-icons ">arrow_drop_down</i></span>
+                    </a>
+
+                    <ul class="payment-show">
+                        <li class="sub-menu"><a href='#' class="payment-list">By Cash</a></li>
+                        <li class="sub-menu"><a href='#' class="payment-list">By Card</a></li>
+
+                    </ul>
+                </li> -->
+
+                <li><a href='#' class="equipment-btn"><i class="material-icons"> all_inclusive</i>Equipment
+                        <span style="color: white;" class="equipment-tag"><i class="material-icons ">arrow_drop_down</i></span>
+                    </a>
+
+                    <ul class="equipment-show">
+                        <li class="sub-menu"><a href='#' class="equipment-list">Training bench</a></li>
+                        <li class="sub-menu"><a href='#' class="equipment-list">Dumbbell set</a></li>
+                        <li class="sub-menu"><a href='#' class="equipment-list">Treadmill</a></li>
+                        <li class="sub-menu"><a href='#' class="equipment-list">Stationary bicycle.</a></li>
+                        <li class="sub-menu"><a href='#' class="equipment-list">Barbell Set</a></li>
+                        <li class="sub-menu"><a href='#' class="equipment-list">Rowing machine</a></li>
+                        <li class="sub-menu"><a href='#' class="equipment-list">Ellipticals</a></li>
+
+                    </ul>
+                </li>
+                <li><a href='#'><i class="material-icons">favorite</i>Membership</a></li>
+            </ul>
+        </div>
+
+        <!-- //////////////////////// Description Section///////////////////////// -->
+
+        <div class="col-10 Dashboard_description">
+
+            <marquee>AKHEYAR GYM | 24 HOURS FITNESS | BODY-BUILDING | EXERCISE</marquee>
+            <!-- <div class="container"> -->
+            <div class="row">
+                <div class="col" id='income'>
+                    <div class="row">
+                        <div class="col"><i class="material-icons fonticons">monetization_on</i></div>
+                        <div class="col offset-5">0</div>
+                    </div>
+                    <center> Current Income</center>
+                </div>
+                <div class="col" id='members'>
+                    <div class="row">
+                        <div class="col"><i class="material-icons fonticons">group</i></div>
+                        <div class="col offset-5">0</div>
+                    </div>
+                    <center> Total Members</center>
+                </div>
+                <div class="col" id='joined'>
+                    <div class="row">
+                        <div class="col"><i class="material-icons fonticons">directions_run</i></div>
+                        <div class="col offset-5">0</div>
+                    </div>
+                    <center> New Joining</center>
+                </div>
+                <div class="col" id='plans'>
+                    <div class="row">
+                        <div class="col"><i class="material-icons fonticons">perm_media</i></div>
+                        <div class="col offset-5">0</div>
+                    </div>
+                    <center> Total Plans</center>
+                </div>
+
+                
+ 
+            <h4  class="h4text"><b>I</b>NCOME | <b>M</b>EMBERS | <b>G</b>YM <b>P</b>ERFORMANCE | <b>N</b>EW <b>J</b>OINING :<span
+                    style="color:blue"> 2021-2022 </span></h4>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- </div> -->
+
+
+    <!-- /////////////////////////////////////// JQUERY ////////////////////////////////-->
+    <script>
+        $('.member-btn').click(function () {
+            $('.Dashboard_menu ul .member-show').toggleClass("show");
+            $('.Dashboard_menu ul .member-tag').toggleClass("rotate");
+        });
+
+        $('.plan-btn').click(function () {
+            $('.Dashboard_menu ul .plan-show').toggleClass("show1");
+            $('.Dashboard_menu ul .plan-tag').toggleClass("rotate");
+        });
+        $('.payment-btn').click(function () {
+            $('.Dashboard_menu ul .payment-show').toggleClass("show2");
+            $('.Dashboard_menu ul .payment-tag').toggleClass("rotate");
+        });
+        $('.exercise-btn').click(function () {
+            $('.Dashboard_menu ul .exercise-show').toggleClass("show3");
+            $('.Dashboard_menu ul .exercise-tag').toggleClass("rotate");
+        });
+        $('.equipment-btn').click(function () {
+            $('.Dashboard_menu ul .equipment-show').toggleClass("show4");
+            $('.Dashboard_menu ul .equipment-tag').toggleClass("rotate");
+        });
+    </script>
+</body>
+
+</html>

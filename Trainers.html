@@ -1,0 +1,332 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+
+    <!-- CSS Jquery and JS File -->
+    <!-- <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="js_file.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Trainers</title>
+</head>
+
+<body>
+
+
+    <div class=" row container-fluid">
+
+        <!--/////////////////////////// Menu Section ////////////////////////////////-->
+
+        <input type="checkbox" id='check' />
+        <label for='check'><i class="material-icons" id='btn' style="color:black;"></i></label>
+
+        <div class="col-2 Dashboard_menu">
+            <header>
+                <input type="checkbox" id='check' />
+                <label for='check'>
+                    <i class="material-icons" id='btn' style="color:white;">format_align_justify</i>
+                </label>
+                <div><i class="material-icons Dashboard_logo">account_balance</i></div>
+                <div class=" Dashboard_logo_text"><b>AKHEYAR GYM</b></div>
+            </header>
+
+            <ul class="Main-menu-ul">
+                <li><a href='index.html'><i class="material-icons">border_inner</i>Dashboard</a></li>
+
+                <li><a href='#'><i class="material-icons">person_pin</i>Profile</a></li>
+
+
+                <li><a href='#' class="member-btn"><i class="material-icons">group</i>Members
+                        <span style="color: white;" class="member-tag"><i class="material-icons ">arrow_drop_down</i></span>
+                    </a>
+
+                    <ul class="member-show">
+                        <li class="sub-menu"><a href='Trainers.html' class="member-list">Trainers</a></li>
+                        <li class="sub-menu"><a href='#' class="member-list">Trainee</a></li>
+                    </ul>
+                </li>
+
+                <li><a href='#' class="exercise-btn"><i class="material-icons"> airline_seat_recline_extra</i>Exercise
+                        <span style="color: white;" class="exercise-tag"><i class="material-icons ">arrow_drop_down</i></span>
+                    </a>
+
+                    <ul class="exercise-show">
+                        <li class="sub-menu"><a href='#' class="exercise-list">Jumping jacks </a></li>
+                        <li class="sub-menu"><a href='#' class="exercise-list">Pushups </a></li>
+                        <li class="sub-menu"><a href='#' class="exercise-list">Crunches </a></li>
+                        <li class="sub-menu"><a href='#' class="exercise-list">Squats </a></li>
+                        <li class="sub-menu"><a href='#' class="exercise-list">Triceps dips </a></li>
+                        <li class="sub-menu"><a href='#' class="exercise-list">Forearm plank </a></li>
+                        <li class="sub-menu"><a href='#' class="exercise-list">Aerobic </a></li>
+
+                    </ul>
+                </li>
+
+
+                <li><a href='#' class="plan-btn"><i class="material-icons"> directions_run</i>Diet Plan
+                        <span style="color: white;" class="plan-tag"><i class="material-icons ">arrow_drop_down</i></span>
+                    </a>
+
+                    <ul class="plan-show">
+                        <li class="sub-menu"><a href='#' class="plan-list">Plan 1 for 50 kg</a></li>
+                        <li class="sub-menu"><a href='#' class="plan-list">Plan 1 for 70 kg</a></li>
+                        <li class="sub-menu"><a href='#' class="plan-list">Plan 1 for 100 kg</a></li>
+                        <li class="sub-menu"><a href='#' class="plan-list">Plan 1 for 150 kg</a></li>
+                    </ul>
+                </li>
+
+                <li><a href='Payment.html' class="payment-btn"><i class="material-icons"> monetization_on</i>Payments</a></li>
+                <!-- <li><a href='#' class="payment-btn"><i class="material-icons"> monetization_on</i>Payments
+                        <span style="color: white;" class="payment-tag"><i class="material-icons ">arrow_drop_down</i></span>
+                    </a>
+
+                    <ul class="payment-show">
+                        <li class="sub-menu"><a href='#' class="payment-list">By Cash</a></li>
+                        <li class="sub-menu"><a href='#' class="payment-list">By Card</a></li>
+
+                    </ul>
+                </li> -->
+
+                <li><a href='#' class="equipment-btn"><i class="material-icons"> all_inclusive</i>Equipment
+                        <span style="color: white;" class="equipment-tag"><i class="material-icons ">arrow_drop_down</i></span>
+                    </a>
+
+                    <ul class="equipment-show">
+                        <li class="sub-menu"><a href='#' class="equipment-list">Training bench</a></li>
+                        <li class="sub-menu"><a href='#' class="equipment-list">Dumbbell set</a></li>
+                        <li class="sub-menu"><a href='#' class="equipment-list">Treadmill</a></li>
+                        <li class="sub-menu"><a href='#' class="equipment-list">Stationary bicycle.</a></li>
+                        <li class="sub-menu"><a href='#' class="equipment-list">Barbell Set</a></li>
+                        <li class="sub-menu"><a href='#' class="equipment-list">Rowing machine</a></li>
+                        <li class="sub-menu"><a href='#' class="equipment-list">Ellipticals</a></li>
+
+                    </ul>
+                </li>
+                <li><a href='#'><i class="material-icons">favorite</i>Membership</a></li>
+            </ul>
+        </div>
+
+
+
+        <!-- //////////////////////// Description Section///////////////////////// -->
+
+        <div class="col-10 Dashboard_description">
+            <marquee>AKHEYAR GYM | 24 HOURS FITNESS | BODY-BUILDING | EXERCISE</marquee>
+
+            <!-- Button trigger modal -->
+            <br></br>
+
+
+            <div class="row">
+
+                <div class="col-3 offset-1 manipulation_button">
+                    <div class="input-group">
+                        <input type="search" class="form-control rounded" placeholder="Search by CNIC" aria-label="Search"
+                            aria-describedby="search-addon" id='search' />
+                        <button type="button" class="btn btn-outline-primary" onclick="Seacrh()"><i class="material-icons"
+                                style="color:red;">search</i></button>
+                    </div>
+                </div>
+
+                <div class="col-2 offset-6 manipulation_button">
+                    <button type="button" class="btn btn-primary add_trainers" data-toggle="modal" data-target="#exampleModal">
+                        Add Trainers
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- <br></br> -->
+
+
+            <br></br>
+            <div class="row titlediv">
+                <div class="col-1 title1">&nbsp;#</div>
+                <div class="col-2 title1">Email</div>
+                <div class="col-2 title1">Number</div>
+                <div class="col-2 title1">CNIC</div>
+                <div class="col-2 title1">Gender</div>
+                <div class="col-1 title1">Experience</div>
+            </div>
+
+
+            <div id='trainer_list'>
+
+            </div>
+
+            <!-- Trainers Modal 1 -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content trainer_modal">
+                        <div class="modal-body">
+                            <center>
+                                <h4><b>Insert Trainer Details</b></h4>
+                            </center>
+
+                            <form>
+
+                                <div class="row member_modal_row_1">
+
+                                    <div class="form-group col-4">
+                                        <label for="trainer_email">Email</label>
+                                        <input type="email" class="form-control" id="trainer_email" aria-describedby="emailHelp"
+                                            placeholder="Email">
+                                    </div>
+
+                                    <div class="form-group col-4">
+
+                                        <label for="trainer_CNIC">CNIC</label>
+                                        <input type="text" class="form-control" id="trainer_CNIC" placeholder="CNIC">
+                                    </div>
+
+                                    <div class="form-group col-4">
+                                        <label for="trainer_number">Phone Number</label>
+                                        <input type="number" class="form-control" id="trainer_number" placeholder="Phone Number">
+                                    </div>
+                                </div>
+
+
+
+                                <div class="row member_modal_row_2">
+
+                                    <div class="form-group col-4">
+                                        <label for="trainer_gender">Select Gender</label>
+                                        <select class="form-select" aria-label="Default select example" id="trainer_gender">
+                                            <option selected>Select Gender</option>
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group col-4">
+                                        <label for="trainer_experience">Experience</label>
+                                        <input type="number" class="form-control" id="trainer_experience" placeholder="Experience">
+                                    </div>
+
+
+                                    <center><br></br><button type="submit" class="btn btn-primary member_modal_submit"
+                                            data-dismiss="modal" onclick="Trainer_data_submit()">Submit</button></center>
+
+                                </div>
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!--  Trainer Modal 2 -->
+
+            <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content trainer_modal">
+                        <div class="modal-body">
+                            <center>
+                                <h4><b>Insert Trainer Details</b></h4>
+                            </center>
+
+                            <form>
+
+                                <div class="row member_modal_row_1">
+
+                                    <div class="form-group col-4">
+                                        <label for="Utrainer_email">Email</label>
+                                        <input type="email" class="form-control" id="Utrainer_email" aria-describedby="emailHelp"
+                                            placeholder="Email">
+                                    </div>
+
+                                    <div class="form-group col-4">
+
+                                        <label for="Utrainer_CNIC">CNIC</label>
+                                        <input type="text" class="form-control" id="Utrainer_CNIC" placeholder="CNIC">
+                                    </div>
+
+                                    <div class="form-group col-4">
+                                        <label for="Utrainer_number">Phone Number</label>
+                                        <input type="number" class="form-control" id="Utrainer_number" placeholder="Phone Number">
+                                    </div>
+                                </div>
+
+
+
+                                <div class="row member_modal_row_2">
+
+                                    <div class="form-group col-4">
+                                        <label for="Utrainer_gender">Select Gender</label>
+                                        <select class="form-select" aria-label="Default select example" id="Utrainer_gender">
+                                            <option selected>Select Gender</option>
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group col-4">
+                                        <label for="Utrainer_experience">Experience</label>
+                                        <input type="number" class="form-control" id="Utrainer_experience" placeholder="Experience">
+                                    </div>
+
+
+                                    <center><br></br><button type="submit" class="btn btn-primary member_modal_submit"
+                                            data-dismiss="modal" onclick="Save_Updated_Data()">Submit</button></center>
+
+                                </div>
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- ////////////////////////////////////////////////////// -->
+
+        </div>
+
+    </div>
+
+    <!-- /////////////////////////////////////// JQUERY ////////////////////////////////-->
+    <script>
+        $('.member-btn').click(function () {
+            $('.Dashboard_menu ul .member-show').toggleClass("show");
+            $('.Dashboard_menu ul .member-tag').toggleClass("rotate");
+        });
+
+        $('.plan-btn').click(function () {
+            $('.Dashboard_menu ul .plan-show').toggleClass("show1");
+            $('.Dashboard_menu ul .plan-tag').toggleClass("rotate");
+        });
+        $('.payment-btn').click(function () {
+            $('.Dashboard_menu ul .payment-show').toggleClass("show2");
+            $('.Dashboard_menu ul .payment-tag').toggleClass("rotate");
+        });
+        $('.exercise-btn').click(function () {
+            $('.Dashboard_menu ul .exercise-show').toggleClass("show3");
+            $('.Dashboard_menu ul .exercise-tag').toggleClass("rotate");
+        });
+        $('.equipment-btn').click(function () {
+            $('.Dashboard_menu ul .equipment-show').toggleClass("show4");
+            $('.Dashboard_menu ul .equipment-tag').toggleClass("rotate");
+        });
+    </script>
+</body>
+
+</html>
